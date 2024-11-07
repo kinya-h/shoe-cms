@@ -1,0 +1,28 @@
+body {
+  overflow-y: visible !important;
+}
+
+.card_dashboard_top {
+  width: 13rem;
+}
+
+@media screen and (max-width: 576px) {
+  .charts_group {
+    flex-direction: column;
+  }
+
+  .charts_item {
+    width: 100% !important;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 488px) {
+  .charts_group {
+    flex-direction: column;
+  }
+
+  .card_dashboard_top {
+    width: 70%;
+  }
+}
