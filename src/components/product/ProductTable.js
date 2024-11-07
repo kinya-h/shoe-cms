@@ -55,7 +55,7 @@ const ProductTable = () => {
             <tr key={item}>
               <td className="text-center align-middle">{i + 1}</td>
               <td className="text-center align-middle">
-                <img src={item.thumbnail} alt="" width={"100px"} />
+                <img src={item.productLink} alt="" width={"100px"} />
               </td>
               <td className="text-center align-middle">{item.name}</td>
               {item.status === "active" ? (
